@@ -11,6 +11,10 @@ I'm an software engineer with a passion for IoT and embedded systems. Feel free 
 ## Overview
 This project is an Arduino-based burglar alarm system designed for a small building (a shop) with four PIR sensors and one Magnetic Reed switch. It monitors movement at each side of the building and checks if the door is open, sounding a high decibel alarm upon detecting security-threatening activity. The system includes a 16x2 LCD display and a 4x4 keypad matrix for navigation.
 
+### The Device
+![Burglar Alarm system](/Pictures/Image_1.jpg)
+
+
 ## Features
 **A 16x2 LCD display and a 4x4 matrix keypad for display and navigation**
 - **Main menu displaying system status (armed or disarmed)**
@@ -60,6 +64,9 @@ To use the system, follow these steps:
 - RTC module
 - High decibel buzzer
 - 2N2222 transistor
+
+### Circuit Diagram
+![Circuit Diagram](/Circuit_Diagram/circuit_diagram.png)
 
 ### Software Requirements
 - Arduino IDE
