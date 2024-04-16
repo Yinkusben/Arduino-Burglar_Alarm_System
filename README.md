@@ -6,7 +6,7 @@ Welcome to the Arduino Based Burglar Alarm System project! This system is design
 This project is part of my portfolio for the ALX Software Engineering foundations course. For more information about this project and my other projects, please visit the [landing page](<https://yinkusben.github.io/Arduino-Burglar_Alarm_System).
 
 ## About Me
-I'm an software engineer with a passion for IoT and embedded systems. Feel free to connect with me on [LinkedIn](<link to your LinkedIn profile>) to learn more about my professional background and interests.
+I'm an software engineer with a passion for IoT and embedded systems. Feel free to connect with me on [LinkedIn](<https://www.linkedin.com/in/yinkusben) to learn more about my professional background and interests.
 
 ## Overview
 This project is an Arduino-based burglar alarm system designed for a small building (a shop) with four PIR sensors and one Magnetic Reed switch. It monitors movement at each side of the building and checks if the door is open, sounding a high decibel alarm upon detecting security-threatening activity. The system includes a 16x2 LCD display and a 4x4 keypad matrix for navigation.
