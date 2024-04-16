@@ -9,7 +9,7 @@ This project is part of my portfolio for the ALX Software Engineering foundation
 I'm an software engineer with a passion for IoT and embedded systems. Feel free to connect with me on [LinkedIn](<https://www.linkedin.com/in/yinkusben) to learn more about my professional background and interests.
 
 ## Overview
-This project is an Arduino-based burglar alarm system designed for a small building (a shop) with four PIR sensors and one Magnetic Reed switch. It monitors movement at each side of the building and checks if the door is open, sounding a high decibel alarm upon detecting security-threatening activity. The system includes a 16x2 LCD display and a 4x4 keypad matrix for navigation.
+This project is an Arduino-based burglar alarm system designed for a small building (a shop) with four PIR sensors and one Magnetic Reed switch. The system employs algorithm for threat detection detection The PIR sensor are set to single trigger mode, a flag is raised only if any of the PIR sensor detects movement about 5 times within 30 sec (This is of course not perfect and would definitely respond to a non malicious movement, but it is meant to be Armed only at night when the area is usually not busy at all) it also checks if the door is open and sounds a high decibel alarm upon detecting security-threatening activity. The system includes a 16x2 LCD display and a 4x4 keypad matrix for display and navigation respectively.
 
 ### The Device
 ![Burglar Alarm system](/Pictures/Image_1.jpg)
