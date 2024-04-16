@@ -1,6 +1,6 @@
 # Arduino based Burglar Alarm System with SMS and Call Notification
 
-![Cover Image](link-to-your-cover-image.jpg)
+![Cover Image](/Pictures/Image_1.jpg)
 
 ## Introduction
 This project is an Arduino-based burglar alarm system that provides SMS and call notifications. It uses PIR sensors to detect motion, Magnetic Reed switch to detect if a door or window had been opened and sends notifications to the user's phone. The system is designed to be affordable and easy to set up.
