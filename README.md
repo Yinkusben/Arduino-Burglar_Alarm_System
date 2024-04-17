@@ -3,7 +3,7 @@
 Welcome to the Arduino Based Burglar Alarm System project! This system is designed for a small building (a shop) with four PIR sensors and one Magnetic Reed switch to monitor movement at each side of the building and check if the door is open. It includes a high decibel alarm and various security features.
 
 ## Introduction
-This project is part of my portfolio for the ALX Software Engineering foundations course. This project was inspired by a friend who had eperienced security issues around his shop, He gave me a call and said he needed a device that would notify him of security-threatning actvity at his shop at his closing hours (majorly at night). For more information about this project and my other projects, please visit the [landing page](<https://yinkusben.github.io/Arduino-Burglar_Alarm_System).
+This project is part of my portfolio for the ALX Software Engineering foundations course. This project was inspired by a friend who had eperienced security issues around his shop, He gave me a call and said he needed a device that would notify him of security-threatning actvity at his shop at his closing hours (majorly at night). For more information about this project please visit the [landing page](<https://yinkusben.github.io/Arduino-Burglar_Alarm_System).
 
 ## About Me
 I'm an software engineer with a passion for IoT and embedded systems. Feel free to connect with me on [LinkedIn](<https://www.linkedin.com/in/yinkusben) to learn more about my professional background and interests.
@@ -12,7 +12,7 @@ I'm an software engineer with a passion for IoT and embedded systems. Feel free 
 This project is an Arduino-based burglar alarm system designed for a small building (a shop) with four PIR sensors and one Magnetic Reed switch. The system employs algorithm for threat detection detection The PIR sensor are set to single trigger mode, a flag is raised only if any of the PIR sensor detects movement about 5 times within 30 sec (This is of course not perfect and would definitely respond to a non malicious movement, but it is meant to be Armed only at night when the area is usually not busy at all) it also checks if the door is open and sounds a high decibel alarm upon detecting security-threatening activity. The system includes a 16x2 LCD display and a 4x4 keypad matrix for display and navigation respectively.
 
 ### The Device
-![Burglar Alarm system](/Pictures/Image_1.jpg)
+![Burglar Alarm system](/docs/Pictures/Image_1.jpg)
 
 
 ## Features
